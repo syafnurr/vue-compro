@@ -1,0 +1,77 @@
+2024/03/05 17:19:03 [notice] 1#1: using the "epoll" event method
+2024/03/05 17:19:03 [notice] 1#1: nginx/1.24.0
+2024/03/05 17:19:03 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2024/03/05 17:19:03 [notice] 1#1: OS: Linux 6.3.13-linuxkit
+2024/03/05 17:19:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/03/05 17:19:03 [notice] 1#1: start worker processes
+2024/03/05 17:19:03 [notice] 1#1: start worker process 30
+2024/03/05 17:19:03 [notice] 1#1: start worker process 31
+2024/03/05 17:20:57 [error] 30#30: *3 open() "/usr/share/nginx/html/ws" failed (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /ws HTTP/1.1", host: "192.168.100.38:8080"
+2024/03/05 17:39:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/03/05 17:39:40 [notice] 31#31: gracefully shutting down
+2024/03/05 17:39:40 [notice] 30#30: gracefully shutting down
+2024/03/05 17:39:40 [notice] 30#30: exiting
+2024/03/05 17:39:40 [notice] 31#31: exiting
+2024/03/05 17:39:40 [notice] 31#31: exit
+2024/03/05 17:39:40 [notice] 30#30: exit
+2024/03/05 17:39:41 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/03/05 17:39:41 [notice] 1#1: worker process 30 exited with code 0
+2024/03/05 17:39:41 [notice] 1#1: worker process 31 exited with code 0
+2024/03/05 17:39:41 [notice] 1#1: exit
+2024/03/06 03:27:18 [notice] 1#1: using the "epoll" event method
+2024/03/06 03:27:18 [notice] 1#1: nginx/1.24.0
+2024/03/06 03:27:18 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2024/03/06 03:27:18 [notice] 1#1: OS: Linux 6.3.13-linuxkit
+2024/03/06 03:27:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/03/06 03:27:18 [notice] 1#1: start worker processes
+2024/03/06 03:27:18 [notice] 1#1: start worker process 30
+2024/03/06 03:27:18 [notice] 1#1: start worker process 31
+2024/03/06 07:06:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/03/06 07:06:23 [notice] 30#30: gracefully shutting down
+2024/03/06 07:06:23 [notice] 31#31: gracefully shutting down
+2024/03/06 07:06:23 [notice] 30#30: exiting
+2024/03/06 07:06:23 [notice] 31#31: exiting
+2024/03/06 07:06:23 [notice] 30#30: exit
+2024/03/06 07:06:23 [notice] 31#31: exit
+2024/03/06 07:06:24 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/03/06 07:06:24 [notice] 1#1: worker process 30 exited with code 0
+2024/03/06 07:06:24 [notice] 1#1: worker process 31 exited with code 0
+2024/03/06 07:06:24 [notice] 1#1: exit
+2024/03/06 09:56:57 [notice] 1#1: using the "epoll" event method
+2024/03/06 09:56:57 [notice] 1#1: nginx/1.24.0
+2024/03/06 09:56:57 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2024/03/06 09:56:57 [notice] 1#1: OS: Linux 6.3.13-linuxkit
+2024/03/06 09:56:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/03/06 09:56:57 [notice] 1#1: start worker processes
+2024/03/06 09:56:57 [notice] 1#1: start worker process 30
+2024/03/06 09:56:57 [notice] 1#1: start worker process 31
+2024/03/06 10:01:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/03/06 10:01:22 [notice] 31#31: gracefully shutting down
+2024/03/06 10:01:22 [notice] 30#30: gracefully shutting down
+2024/03/06 10:01:22 [notice] 30#30: exiting
+2024/03/06 10:01:22 [notice] 31#31: exiting
+2024/03/06 10:01:22 [notice] 30#30: exit
+2024/03/06 10:01:22 [notice] 31#31: exit
+2024/03/06 10:01:23 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/03/06 10:01:23 [notice] 1#1: worker process 30 exited with code 0
+2024/03/06 10:01:23 [notice] 1#1: worker process 31 exited with code 0
+2024/03/06 10:01:23 [notice] 1#1: exit
+2024/03/06 10:01:26 [notice] 1#1: using the "epoll" event method
+2024/03/06 10:01:26 [notice] 1#1: nginx/1.24.0
+2024/03/06 10:01:26 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2024/03/06 10:01:26 [notice] 1#1: OS: Linux 6.3.13-linuxkit
+2024/03/06 10:01:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/03/06 10:01:26 [notice] 1#1: start worker processes
+2024/03/06 10:01:26 [notice] 1#1: start worker process 30
+2024/03/06 10:01:26 [notice] 1#1: start worker process 31
+2024/03/06 10:10:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/03/06 10:10:56 [notice] 31#31: gracefully shutting down
+2024/03/06 10:10:56 [notice] 30#30: gracefully shutting down
+2024/03/06 10:10:56 [notice] 31#31: exiting
+2024/03/06 10:10:56 [notice] 30#30: exiting
+2024/03/06 10:10:56 [notice] 30#30: exit
+2024/03/06 10:10:56 [notice] 31#31: exit
+2024/03/06 10:10:57 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/03/06 10:10:57 [notice] 1#1: worker process 30 exited with code 0
+2024/03/06 10:10:57 [notice] 1#1: worker process 31 exited with code 0
+2024/03/06 10:10:57 [notice] 1#1: exit
