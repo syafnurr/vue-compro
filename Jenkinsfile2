@@ -1,0 +1,36 @@
+pipeline {
+    agent any
+
+    environment {
+        DOCKER_IMAGE = 'vue-compro_vuejs'
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Build') {
+            steps {
+                script {
+                    docker.build("$DOCKER_IMAGE")
+                }
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                script {
+                    sh 'docker-compose down && docker-compose up -d'
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+        }
+    }
+}
