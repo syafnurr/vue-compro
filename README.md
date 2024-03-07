@@ -1,4 +1,4 @@
-# compro-website
+# compro-website CICD
 
 ## Project setup
 ```
