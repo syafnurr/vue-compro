@@ -1,0 +1,28 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - master  # Atau branch yang kamu gunakan
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.5.1
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          
+      - name: Deploy to Server
+        run: |
+          ssh -o StrictHostKeyChecking=no syaflab@103.13.206.104 << 'EOF'
+          cd /home/syaflab/Application/vue-compro
+          git pull
+          docker-compose build
+          docker-compose down
+          docker-compose up -d
+          EOF
